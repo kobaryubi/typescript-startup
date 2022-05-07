@@ -1,0 +1,5 @@
+version: '3'
+services:
+  typescript-startup:
+    build: .
+    container_name: typescript-startup
