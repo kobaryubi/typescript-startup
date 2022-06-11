@@ -15,3 +15,8 @@ const todo = {
 }
 
 const updatedTodo = updateTodo(todo, { description: "throw out trash" })
+
+const readOnlyTodo: Readonly<Todo> = {
+  title: "Delete inactive users",
+  description: ""
+}
